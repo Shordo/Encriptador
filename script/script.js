@@ -6,6 +6,7 @@ function encryptText() {
         document.getElementById('image-output').style.display = 'flex';
         document.getElementById('output-text').innerText = "Texto encriptado/desencriptado aparecerá aquí...";
         textExist = false;
+        
     }else{
         /*
             conversion de la cadena de texto
