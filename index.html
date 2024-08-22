@@ -10,17 +10,20 @@
     <div class="container">
         <section class="input-section">
             <div class="image-container">
-                <img src="ruta/a/tu/imagen.jpg" alt="Imagen descriptiva">
+                <img src="assets/Logo.png" alt="Imagen logo">
             </div>
-            <textarea id="input-text" placeholder="Ingresa tu texto aquí..."></textarea>
+            <textarea id="input-text" placeholder="Ingresa tu texto aqui"></textarea>
+            <p id="notify-text"><img src="assets/icon.png"> letras minúsculas y sin acentos</p>
             <div class="button-container">
                 <button onclick="encryptText()">Encriptar</button>
                 <button onclick="decryptText()">Desencriptar</button>
             </div>
         </section>
         <section class="output-section">
-            <img src="ruta/a/tu/imagen.jpg" alt="Imagen descriptiva" id="image-output">
-            <textarea id="output-text" placeholder="Texto encriptado/desencriptado aparecerá aquí..." readonly></textarea>
+            <img src="assets/Muñeco.png" alt="Imagen persona buscando" id="image-output">
+            <h2>Ningún mensaje fue encontrado</h2>
+            <p>Ingresa el texto que desees encriptar o desencriptar</p>
+            <textarea id="output-text" readonly></textarea>
             <button onclick="copyText()">Copiar</button>
         </section>
     </div>
