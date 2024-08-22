@@ -10,21 +10,21 @@
     <div class="container">
         <section class="input-section">
             <div class="image-container">
-                <img src="assets/Logo.png" alt="Imagen logo">
+                <img src="assets/Logo.png" alt="Imagen logo" id="image-container">
             </div>
-            <textarea id="input-text" placeholder="Ingresa tu texto aqui"></textarea>
-            <p id="notify-text"><img src="assets/icon.png"> letras minúsculas y sin acentos</p>
+            <textarea id="input-text" placeholder="Ingrese el texto aqui"></textarea> <!--#0A3871-->
+            <p id="notify-text"><img src="assets/Group.png"> letras minúsculas y sin acentos</p>
             <div class="button-container">
-                <button onclick="encryptText()">Encriptar</button>
-                <button onclick="decryptText()">Desencriptar</button>
+                <a onclick="encryptText()" id="buttonEncrypt">Encriptar</a><!--#0A3871 | #FFFFFF-->
+                <a onclick="decryptText()" id="buttonDecrypt">Desencriptar</a><!--#D8DFE8 | #0A3871-->
             </div>
         </section>
         <section class="output-section">
             <img src="assets/Muñeco.png" alt="Imagen persona buscando" id="image-output">
-            <h2>Ningún mensaje fue encontrado</h2>
-            <p>Ingresa el texto que desees encriptar o desencriptar</p>
-            <textarea id="output-text" readonly></textarea>
-            <button onclick="copyText()">Copiar</button>
+            <h2 id="h2">Ningún mensaje fue encontrado</h2> <!--Inter w700 s24px lh28.8px aCenter #343A40-->
+            <p id="p">Ingresa el texto que desees encriptar o desencriptar</p> <!--Inter w400 s16px lh24px aCenter #495057 -->
+            <textarea id="output-text" readonly></textarea> <!--Inter w400 s24px lh36px #495057 -->
+            <a onclick="copyText()" id="buttonCopy">Copiar</a> <!--#FFFFFF | #0A3871-->
         </section>
     </div>
     <script src="script/script.js"></script>
