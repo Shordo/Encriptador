@@ -20,7 +20,6 @@ function encryptText() {
         document.getElementById('h2').style.display = 'none';
         document.getElementById('p').style.display = 'none';
         document.getElementById('output-text').style.display ='flex';
-        document.getElementById('output-text').style.margin = '70px 0px 55px 0';
         textExist = true;
     }
 }
@@ -46,7 +45,6 @@ function decryptText() {
         document.getElementById('h2').style.display = 'none';
         document.getElementById('p').style.display = 'none';
         document.getElementById('output-text').style.display ='flex';
-        document.getElementById('output-text').style.margin = '70px 0px 55px 0';
         textExist = true;
     }
 }
